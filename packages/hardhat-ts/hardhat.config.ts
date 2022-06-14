@@ -162,7 +162,7 @@ const config: HardhatUserConfig = {
 };
 export default config;
 
-const DEBUG = true;
+const DEBUG = false;
 
 function debug(text: string) {
   if (DEBUG) {
